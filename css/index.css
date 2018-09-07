@@ -1,0 +1,754 @@
+html {
+    margin: 0;
+
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*----------------------NAV BAR-------------------------*/
+
+.relativenavbar {
+    position: relative;
+    padding: 10px;
+    background-color: #2f2f5f;
+    height: 70px;
+    width: 100%;
+
+    transition: height 1s;
+    animation-name: animationrelativenavbar;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    z-index: 15;
+
+}
+
+@keyframes animationrelativenavbar {
+    from {
+        background-color: #5a33ce;
+
+    }
+    to {
+        background-color: #2f2f5f;
+
+    }
+}
+
+
+.stickynavbar {
+    position: fixed;
+    padding: 10px;
+    transition: height 1s, background-color 1s;
+    height: 60px;
+    width: 100%;
+    z-index: 15;
+    background-color: rgba( 2, 2, 2, 0.431);
+}
+
+#navbar ul li {
+
+    padding: 0px 15px 0px 15px;
+    float: right;
+
+}
+
+#navbar a {
+    color: #deeaf6;
+    cursor: pointer;
+    font-size: 30px;
+    transition: color 1s, border-right 1s;
+}
+
+
+/*--DROP DOWN MENU--*/
+
+#dropdown {
+    float: right;
+}
+
+#contactbtn {
+    padding-right: 5px;
+    border-right: 0px solid #deeaf6;
+    transition: border-right 1s;
+}
+
+#contactbtn:hover {
+    padding-right: 5px;
+    border-right: 5px solid #deeaf6;
+}
+
+
+/*------------------------------------------Intro-------------------------------------*/
+
+#introcontainer {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #5a33ce, #59c7d5);
+    height: 396px;
+}
+
+#introDiv {
+    width: 32%;
+    margin: auto;
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+
+#introDiv p {
+    font-family: poppins;
+    color: white;
+}
+
+
+
+ion-icon {
+    font-size: 3.7vw;
+    position: relative;
+    color: white;
+    position: relative;
+    animation-name: ion-icon;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: color 1s, font-size 1s;
+    cursor: pointer;
+    z-index: 15;
+}
+
+@keyframes ion-icon {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+
+}
+
+ion-icon:hover {
+    font-size: 4.3vw;
+    color: #5a33ce;
+    transition: color 1s, font-size 1s;
+}
+
+/*-----------------------PARALLAX BACKGROUND---------------------------*/
+
+#parallax_background {
+
+    position: relative;
+    height: 27vw;
+    background: #59c7d5;
+
+}
+
+#parallax_background img {
+    position: absolute;
+    width: 100%;
+
+}
+
+#pier {
+    z-index: 14;
+
+}
+
+#smallbirds {
+    z-index: 13;
+}
+
+#mediumbirds {
+    z-index: 12;
+}
+
+#bigbirds {
+    z-index: 11;
+}
+
+#darkerorange {
+    z-index: 10;
+
+}
+
+#orangesands {
+    z-index: 9;
+}
+
+#piergrinds {
+    z-index: 8;
+}
+
+#people {
+    z-index: 7;
+}
+
+#blueocean {
+    z-index: 6;
+}
+
+#purplebackgroundcloud {
+    z-index: 5;
+}
+
+#pinkbackgroundcloud {
+    z-index: 4;
+}
+
+#biggermoon {
+    z-index: 3;
+}
+
+#smallmoon {
+    z-index: 2;
+}
+
+#lightbluesky {
+    z-index: 1;
+}
+
+/*------------------------------------------About-------------------------------------*/
+
+#aboutcontainer {
+    background: #59c7d5;
+    margin: 0;
+    padding: 0;
+
+}
+
+.coverart {
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+
+#abouttitle {
+    font-size: 2.7vw;
+    color: #deeaf6;
+    width: 14%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2px;
+    border-bottom: 5px solid #deeaf6;
+
+
+}
+
+.margindiv p {
+    width: 70%;
+    margin: auto;
+}
+
+#aboutDiv1,
+#aboutDiv2,
+#aboutDiv3 {
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+
+}
+
+#aboutDiv1 img {
+    width: 20%;
+    min-width: 20%;
+    border-radius: 5px;
+
+}
+
+#aboutDiv1 p,
+#aboutDiv2 p,
+#aboutDiv3 p {
+    float: right;
+    font-size: 1.2vw;
+}
+
+
+#aboutDiv2 img {
+    width: 20%;
+    min-width: 20%;
+    border-radius: 5px;
+
+}
+
+
+
+#aboutDiv3 img {
+    width: 20%;
+    min-width: 20%;
+    border-radius: 5px;
+
+
+
+}
+
+
+.margindiv {
+    margin: 5px;
+}
+
+/*------------------------------------------Skills-------------------------------------*/
+
+#skillscontainer {
+    background: #59c7d5;
+    padding: 0;
+    margin: 0;
+}
+
+#skillstitle {
+    font-size: 2.7vw;
+    color: #deeaf6;
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2px;
+    border-bottom: 5px solid #deeaf6;
+}
+
+#showallbtn {
+    font-size: 2.0vw;
+    color: #59c7d5;
+    width: 12%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2px;
+    background-color: #deeaf6;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 5px #565656;
+    position: relative;
+    top: 0px;
+    transition: background-color 1s, color 1s, top 0.5s, box-shadow 0.5s;
+}
+
+#showallbtn:hover {
+    position: relative;
+    top: 10px;
+    background-color: #5a33ce;
+    color: white;
+    box-shadow: 0 0 0 #565656;
+    transition: background-color 1s, color 1s, top 0.5s, box-shadow 0.5s;
+    cursor: pointer;
+}
+
+#skillDiv {
+    width: 85%;
+    margin: auto;
+
+}
+
+#skillsets1,
+#skillsets2,
+#skillsets3 {
+    display: inline-block;
+    width: 33.1%;
+    color: #59c7d5;
+}
+
+#skillsets2 {
+    position: relative;
+    top: -8px;
+}
+
+#skillsets3 {
+    position: relative;
+    top: -8px;
+}
+
+.skillset {
+    background: white;
+    border-bottom: 1px solid #d0d1d0;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0 0 2px;
+    height: 120px;
+
+}
+
+
+
+.skillset:nth-of-type(1) {
+    border-bottom: 10px solid #0abbdb;
+}
+
+.skillset p:first-child {
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.skillsettitle {
+    color: #5a33ce;
+    font-weight: bolder;
+
+}
+
+.skillset img {
+    width: 7%;
+    align-content: center;
+    filter: grayscale(20%);
+
+}
+
+
+
+.percentage {
+    background-color: #deeaf6;
+    height: 14px;
+    display: inline-block;
+}
+
+.ps,
+.js,
+.jquery,
+.css3,
+.html5,
+.pro,
+.sp,
+.ae,
+.zbrush,
+.maya,
+.unity {
+    width: 0%;
+}
+
+
+
+
+/*------------------------------------------Contact-------------------------------------*/
+
+#contactcontainer {
+    background: #59c7d5;
+
+}
+
+#contacttitle {
+    font-size: 2.0vw;
+    color: #0abbdb;
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #0abbdb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contactcontentDiv {
+    width: 70%;
+    margin: auto;
+
+}
+
+#contactingDiv {
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    margin: 5px;
+    height: 500px;
+    box-shadow: 0 0 5px;
+}
+
+
+input[type=text],
+select,
+textarea,
+#comment {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #deeaf6;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 1.2vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+input[type=submit] {
+    background-color: #0abbdb;
+
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3vw;
+    transition: background-color 1s;
+}
+
+input[type=submit]:hover {
+    background-color: #5a33ce;
+    transition: background-color 1s;
+}
+
+
+/*---------------------------SOCIAL--*/
+
+#socialDiv {
+    width: 100%;
+    text-align: center;
+    background: white;
+    float: left;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0 0 5px;
+}
+
+#socialtitle {
+    font-size: 2.0vw;
+    color: #0abbdb;
+    width: 13%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #0abbdb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fab,
+.fas {
+    margin: 15px 50px 10px 50px;
+    font-size: 3.1vw;
+    color: #0abbdb;
+    transition: font-size 1s;
+}
+
+.fab:hover,
+.fas:hover {
+    font-size: 3.5vw;
+    color: #5a33ce;
+    transition: font-size 1s, color 1s;
+}
+
+#jsComment {
+    font-size: 1.1vw;
+    color: #0abbdb;
+    font-family: Poppins;
+
+}
+
+/*------------------------------------------FOOTER---------------------------------------*/
+
+#foot {
+    box-shadow: 0 0 5px;
+}
+
+#foot p {
+    display: inline;
+
+}
+
+#foot p:first-of-type {
+    color: #0abbdb;
+    font-family: Poppins;
+}
+
+#foot p:last-child {
+    color: #967CE3;
+    font-family: Poppins;
+}
+
+/*MEDIA QUERIES RESPONSIVE CSS 800px-------------------------------------------------------*/
+
+/*max width: 900, any screens with 900px or less*/
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 540px) {
+    #navbar a {
+        font-size: 28px;
+
+    }
+
+    #navbar ul li {
+        padding: 0px 7px 0px 7px;
+
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+
+    #introcontainer {
+        height: 690px;
+    }
+
+    #introDiv p {
+        font-size: 40px;
+    }
+    #introDiv p:nth-child(2),
+    #introDiv p:nth-child(3) {
+        font-size: 35px;
+    }
+
+
+
+    #parallax_background {}
+
+    #parallax_background img {}
+
+
+    #introDiv {
+        width: 70%
+    }
+
+    .margindiv p {
+        width: 100%;
+
+    }
+
+
+
+    #aboutDiv1 p,
+    #aboutDiv2 p,
+    #aboutDiv3 p {
+        font-size: 15px;
+    }
+    ion-icon {
+        font-size: 35px;
+    }
+
+    ion-icon:hover {
+        font-size: 45px;
+    }
+
+    #aboutDiv1,
+    #aboutDiv2,
+    #aboutDiv3 {
+        height: 465px;
+    }
+
+    #aboutDiv1 img,
+    #aboutDiv2 img,
+    #aboutDiv3 img {
+        height: 240px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #skillsets1,
+    #skillsets2,
+    #skillsets3 {
+        width: 100%;
+    }
+
+    #skillsets1 .skillset,
+    #skillsets2 .skillset,
+    #skillsets3 .skillset {
+        width: 100%;
+    }
+
+    #skillsets1 .skillset:last-child,
+    #skillsets2 .skillset:last-child,
+    #skillsets3 .skillset:last-child {
+        margin-bottom: 10px;
+    }
+
+    .skillset img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .skillset p:first-child {
+        font-size: 14px;
+    }
+
+    #contactcontentDiv {
+        width: 95%;
+    }
+    #abouttitle {
+        margin-top: 15px;
+    }
+    #abouttitle,
+    #skillstitle,
+    #contacttitle,
+    #socialtitle,
+    #name,
+    #email,
+    #subject,
+    #comment,
+    input[type=submit] {
+        font-size: 20px;
+    }
+
+    #showallbtn {
+        font-size: 15px;
+        width: 20%;
+    }
+
+    .fab,
+    .fas,
+    .fab:hover,
+    .fas:hover {
+        font-size: 55px;
+    }
+
+    #abouttitle {
+        width: 50px;
+    }
+    #socialtitle {
+        width: 80px;
+    }
+    #skillstitle {
+        width: 60px;
+    }
+    #contacttitle {
+        width: 110px;
+    }
+
+    #jsComment {
+        font-size: 15px;
+    }
+
+
+}
+
+@media only screen and (min-width: 990px) {
+
+
+    #introDiv p {
+        font-size: 2.3vw;
+    }
+
+    #introDiv p:nth-child(2),
+    #introDiv p:nth-child(3) {
+        font-size: 1.8vw;
+    }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1303px) {
+    #skillsets1,
+    #skillsets2,
+    #skillsets3 {
+        display: inline-block;
+        width: 33%;
+    }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1660px) {
+    #introcontainer {
+        height: 615px;
+    }
+
+}
