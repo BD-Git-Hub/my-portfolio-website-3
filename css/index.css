@@ -246,8 +246,9 @@ ion-icon:hover {
 }
 
 #bioimgDiv {
-    width: 42%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 #bioimgDiv img {
