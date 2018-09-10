@@ -209,7 +209,7 @@ ion-icon:hover {
     z-index: 1;
 }
 
-/*------------------------------------------About-------------------------------------*/
+/*------------------------------------------Bio-------------------------------------*/
 
 #aboutcontainer {
     background: #59c7d5;
@@ -251,7 +251,7 @@ ion-icon:hover {
 }
 
 #bioimgDiv img {
-
+    align-content: center;
     height: 250px;
     width: 250px;
 
@@ -263,6 +263,8 @@ ion-icon:hover {
     box-shadow: 0 0 5px;
     margin: 5px;
 }
+
+
 
 /*------------------------------------------Skills-------------------------------------*/
 
@@ -532,7 +534,7 @@ input[type=submit]:hover {
     font-family: Poppins;
 }
 
-/*MEDIA QUERIES RESPONSIVE CSS 800px-------------------------------------------------------*/
+/*MEDIA QUERIES RESPONSIVE-------------------------------------------------------*/
 
 /*max width: 900, any screens with 900px or less*/
 
@@ -551,6 +553,16 @@ input[type=submit]:hover {
 
 }
 
+@media only screen and (max-width: 880px) {
+    #bioimgDiv img {
+        width: 90%;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
 @media only screen and (max-width: 990px) {
 
     #introcontainer {
@@ -565,29 +577,10 @@ input[type=submit]:hover {
         font-size: 35px;
     }
 
-
-
-    #parallax_background {}
-
-    #parallax_background img {}
-
-
     #introDiv {
         width: 70%
     }
 
-    .margindiv p {
-        width: 100%;
-
-    }
-
-
-
-    #aboutDiv1 p,
-    #aboutDiv2 p,
-    #aboutDiv3 p {
-        font-size: 15px;
-    }
     ion-icon {
         font-size: 35px;
     }
@@ -596,21 +589,24 @@ input[type=submit]:hover {
         font-size: 45px;
     }
 
-    #aboutDiv1,
-    #aboutDiv2,
-    #aboutDiv3 {
-        height: 465px;
+    /*Bio section*/
+    #abouttitle {
+        width: 50px;
+
+    }
+    #bioDiv {
+        width: 80%;
     }
 
-    #aboutDiv1 img,
-    #aboutDiv2 img,
-    #aboutDiv3 img {
-        height: 240px;
-        width: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    #bioDiv p {
+        margin-bottom: 20px;
     }
+
+    #bioimgDiv {
+        width: 90%;
+    }
+
+
 
     #skillsets1,
     #skillsets2,
@@ -642,9 +638,7 @@ input[type=submit]:hover {
     #contactcontentDiv {
         width: 95%;
     }
-    #abouttitle {
-        margin-top: 15px;
-    }
+
     #abouttitle,
     #skillstitle,
     #contacttitle,
@@ -658,8 +652,8 @@ input[type=submit]:hover {
     }
 
     #showallbtn {
-        font-size: 15px;
-        width: 20%;
+        font-size: 25px;
+        width: 25%;
     }
 
     .fab,
@@ -669,14 +663,14 @@ input[type=submit]:hover {
         font-size: 55px;
     }
 
-    #abouttitle {
-        width: 50px;
-    }
-    #socialtitle {
-        width: 80px;
-    }
+
+
     #skillstitle {
         width: 60px;
+    }
+
+    #socialtitle {
+        width: 80px;
     }
     #contacttitle {
         width: 110px;
