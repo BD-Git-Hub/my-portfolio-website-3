@@ -32,14 +32,14 @@ $(document).ready(function () {
     //-------------------------NAV BUTTONS GOES TO THEIR SECTIONS------------------------//
     $('#biobtn').click(function () {
         $('html, body').animate({
-            scrollTop: 950
+            scrollTop: 850
         }, 600);
         return false;
     });
 
     $('#skillsbtn').click(function () {
         $('html, body').animate({
-            scrollTop: 1900
+            scrollTop: 1560
         }, 600);
         return false;
     });
