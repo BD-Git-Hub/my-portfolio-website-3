@@ -1,20 +1,12 @@
-html {
-    margin: 0;
-
-
-}
+html {}
 
 
 body {
     margin: 0;
     padding: 0;
-
 }
 
-.container-fluid {
-    margin: 0;
-    padding: 0;
-}
+.container-fluid {}
 
 
 
@@ -58,7 +50,6 @@ body {
 }
 
 #navbar ul li {
-
     padding: 0px 15px 0px 15px;
     float: right;
 
@@ -227,11 +218,6 @@ ion-icon:hover {
 
 }
 
-.coverart {
-    position: relative;
-    top: 0;
-    z-index: 1;
-}
 
 #abouttitle {
     font-size: 2.7vw;
@@ -241,61 +227,40 @@ ion-icon:hover {
     text-align: center;
     padding-bottom: 2px;
     border-bottom: 5px solid #deeaf6;
-
-
 }
 
-.margindiv p {
-    width: 70%;
-    margin: auto;
-}
-
-#aboutDiv1,
-#aboutDiv2,
-#aboutDiv3 {
+#bioDiv {
     background: white;
     border-radius: 5px;
-    padding: 10px;
-    width: 80%;
+    width: 50%;
     margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 5px;
+}
+
+#bioDiv p {
+    color: #59c7d5;
+    font-size: 25px;
+    text-align: center;
 
 }
 
-#aboutDiv1 img {
-    width: 20%;
-    min-width: 20%;
+#bioimgDiv {
+    width: 42%;
+    margin: auto;
+}
+
+#bioimgDiv img {
+
+    height: 250px;
+    width: 250px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background: white;
     border-radius: 5px;
-
-}
-
-#aboutDiv1 p,
-#aboutDiv2 p,
-#aboutDiv3 p {
-    float: right;
-    font-size: 1.2vw;
-}
-
-
-#aboutDiv2 img {
-    width: 20%;
-    min-width: 20%;
-    border-radius: 5px;
-
-}
-
-
-
-#aboutDiv3 img {
-    width: 20%;
-    min-width: 20%;
-    border-radius: 5px;
-
-
-
-}
-
-
-.margindiv {
+    box-shadow: 0 0 5px;
     margin: 5px;
 }
 
