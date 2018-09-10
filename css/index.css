@@ -264,8 +264,15 @@ ion-icon:hover {
     border-radius: 5px;
     box-shadow: 0 0 5px;
     margin: 5px;
+    filter: brightness(80%);
+    transition: filter 1s;
+
 }
 
+#bioimgDiv img:hover {
+    filter: brightness(110%);
+    transition: filter 1s;
+}
 
 
 /*------------------------------------------Skills-------------------------------------*/
@@ -327,6 +334,8 @@ ion-icon:hover {
     color: #59c7d5;
 }
 
+.skillset:first-child {}
+
 #skillsets2 {
     position: relative;
     top: -8px;
@@ -348,8 +357,6 @@ ion-icon:hover {
 
 }
 
-
-
 .skillset:nth-of-type(1) {
     border-bottom: 10px solid #0abbdb;
 }
@@ -360,7 +367,7 @@ ion-icon:hover {
 }
 
 .skillsettitle {
-    color: #5a33ce;
+    color: #0abbdb;
     font-weight: bolder;
 
 }
