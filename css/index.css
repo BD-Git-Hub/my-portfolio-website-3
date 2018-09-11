@@ -266,7 +266,7 @@ ion-icon:hover {
     margin: 5px;
     filter: brightness(80%);
     transition: filter 1s;
-
+    border: 5px solid white;
 }
 
 #bioimgDiv img:hover {
@@ -332,6 +332,7 @@ ion-icon:hover {
     display: inline-block;
     width: 33.1%;
     color: #59c7d5;
+
 }
 
 .skillset:first-child {}
@@ -344,21 +345,24 @@ ion-icon:hover {
 #skillsets3 {
     position: relative;
     top: -8px;
+
 }
 
 .skillset {
+
     background: white;
     border-bottom: 1px solid #d0d1d0;
     padding: 12px;
     border-radius: 5px;
     margin: 5px;
-    box-shadow: 0 0 2px;
     height: 120px;
+    box-shadow: 0px 0px 5px black;
 
 }
 
 .skillset:nth-of-type(1) {
     border-bottom: 10px solid #0abbdb;
+
 }
 
 .skillset p:first-child {
@@ -369,6 +373,7 @@ ion-icon:hover {
 .skillsettitle {
     color: #0abbdb;
     font-weight: bolder;
+
 
 }
 
@@ -569,6 +574,7 @@ input[type=submit]:hover {
         display: block;
         margin: auto;
         margin-bottom: 20px;
+
     }
 }
 
