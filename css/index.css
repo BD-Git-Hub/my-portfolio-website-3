@@ -301,6 +301,7 @@ ion-icon:hover {
 }
 
 #showallbtn {
+    position: relative;
     font-size: 2.0vw;
     width: 12%;
     margin: auto;
@@ -318,7 +319,8 @@ ion-icon:hover {
 }
 
 #showallbtn:hover {
-
+    position: relative;
+    top: 5px;
     color: #deeaf6;
     background-color: #5a33ce;
     box-shadow: 0 0 0 #565656;
@@ -338,15 +340,11 @@ ion-icon:hover {
 #skillsets3 {
     display: inline-block;
     width: 33.1%;
+    color: #deeaf6;
 
-    color: white;
 }
 
-.skillset:first-child {}
 
-#skillsets2 {}
-
-#skillsets3 {}
 
 .skillset {
 
@@ -361,7 +359,7 @@ ion-icon:hover {
 }
 
 .skillset:nth-of-type(1) {
-    border-bottom: 10px solid #0abbdb;
+    border-bottom: 10px solid #deeaf6;
 
 }
 
@@ -371,9 +369,7 @@ ion-icon:hover {
 }
 
 .skillsettitle {
-    color: #0abbdb;
     font-weight: bolder;
-
 
 }
 
@@ -532,14 +528,14 @@ input[type=submit]:hover {
 .fas {
     margin: 15px 50px 10px 50px;
     font-size: 3.1vw;
-    color: rgb(222, 234, 246);
+    color: rgb(222, 234, 246, 0.5);
     transition: font-size 1s, color 1s;
 }
 
 .fab:hover,
 .fas:hover {
     font-size: 3.5vw;
-    color: rgb(10, 187, 219, 0.5);
+    color: #deeaf6;
     transition: font-size 1s, color 1s;
 }
 
