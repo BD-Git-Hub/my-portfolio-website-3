@@ -87,7 +87,7 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(180deg, #5a33ce, #59c7d5);
-    height: 396px;
+    height: 400px;
 }
 
 #introDiv {
@@ -249,7 +249,7 @@ ion-icon:hover {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    /*WORKING ON PREVIEW*/
+
 }
 
 #bioimgDiv img {
