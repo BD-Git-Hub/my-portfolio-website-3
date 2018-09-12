@@ -665,6 +665,7 @@ input[type=submit]:hover {
     .skillset img {
         width: 30px;
         height: 30px;
+
     }
 
     .skillset p:first-child {
@@ -716,21 +717,15 @@ input[type=submit]:hover {
         font-size: 15px;
     }
 
+    .fab,
+    .fas {
+        margin: 15px 45px 10px 45px;
+    }
+
 
 }
 
-@media only screen and (min-width: 990px) {
 
-
-    #introDiv p {
-        font-size: 2.3vw;
-    }
-
-    #introDiv p:nth-child(2),
-    #introDiv p:nth-child(3) {
-        font-size: 1.8vw;
-    }
-}
 
 @media only screen and (min-width: 990px) and (max-width: 1303px) {
     #skillsets1,
