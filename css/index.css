@@ -212,7 +212,10 @@ ion-icon:hover {
 /*------------------------------------------Bio-------------------------------------*/
 
 #aboutcontainer {
-    background: #59c7d5;
+    position: relative;
+    top: -4px;
+
+    background: linear-gradient(180deg, #f19870, #5a33ce);
     margin: 0;
     padding: 0;
 
@@ -230,16 +233,16 @@ ion-icon:hover {
 }
 
 #bioDiv {
-    background: white;
+
     border-radius: 5px;
     width: 50%;
     margin: auto;
     margin-top: 20px;
-    box-shadow: 0 0 5px;
+
 }
 
 #bioDiv p {
-    color: #59c7d5;
+    color: #deeaf6;
     font-size: 25px;
     text-align: center;
 
@@ -280,8 +283,11 @@ ion-icon:hover {
 
 #skillscontainer {
     background: #59c7d5;
+    background: linear-gradient(180deg, #5a33ce, #59c7d5);
     padding: 0;
     margin: 0;
+    position: relative;
+    top: -4px;
 }
 
 #skillstitle {
@@ -296,12 +302,12 @@ ion-icon:hover {
 
 #showallbtn {
     font-size: 2.0vw;
-    color: #59c7d5;
     width: 12%;
     margin: auto;
     text-align: center;
     padding-bottom: 2px;
-    background-color: #deeaf6;
+    background-color: rgba( 10, 187, 219, 1);
+    color: white;
     border-radius: 4px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -312,11 +318,11 @@ ion-icon:hover {
 }
 
 #showallbtn:hover {
-    position: relative;
-    top: 10px;
+
+    color: #deeaf6;
     background-color: #5a33ce;
-    color: white;
     box-shadow: 0 0 0 #565656;
+
     transition: background-color 1s, color 1s, top 0.5s, box-shadow 0.5s;
     cursor: pointer;
 }
@@ -332,30 +338,23 @@ ion-icon:hover {
 #skillsets3 {
     display: inline-block;
     width: 33.1%;
-    color: #59c7d5;
 
+    color: white;
 }
 
 .skillset:first-child {}
 
-#skillsets2 {
-    position: relative;
-    top: -8px;
-}
+#skillsets2 {}
 
-#skillsets3 {
-    position: relative;
-    top: -8px;
-
-}
+#skillsets3 {}
 
 .skillset {
 
-    background: white;
-    border-bottom: 1px solid #d0d1d0;
+    background-color: rgba( 89, 89, 89, 0.3);
+
     padding: 12px;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
     height: 120px;
     box-shadow: 0px 0px 5px black;
 
@@ -379,18 +378,24 @@ ion-icon:hover {
 }
 
 .skillset img {
-    width: 7%;
+    width: 30px;
+    height: 30px;
     align-content: center;
     filter: grayscale(20%);
+    position: relative;
+    left: -4px;
+    top: 1px;
 
 }
 
 
 
 .percentage {
-    background-color: #deeaf6;
-    height: 14px;
+    background-color: rgba( 222, 234, 246, 0.4);
+    height: 30px;
     display: inline-block;
+    position: relative;
+    top: 12px;
 }
 
 .ps,
@@ -413,18 +418,19 @@ ion-icon:hover {
 /*------------------------------------------Contact-------------------------------------*/
 
 #contactcontainer {
-    background: #59c7d5;
-
+    background: linear-gradient(180deg, #59c7d5, #5f21ff);
+    position: relative;
+    top: -4px;
 }
 
 #contacttitle {
     font-size: 2.0vw;
-    color: #0abbdb;
+    color: #deeaf6;
     width: 15%;
     margin: auto;
     text-align: center;
     padding-bottom: 2px;
-    border-bottom: 3px solid #0abbdb;
+    border-bottom: 3px solid #deeaf6;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -439,12 +445,17 @@ ion-icon:hover {
     padding-top: 5px;
     width: 100%;
     text-align: center;
-    background: white;
+    background-color: rgba( 89, 89, 89, 0.3);
     border-radius: 5px;
     margin: 5px;
     height: 500px;
     box-shadow: 0 0 5px;
 }
+
+
+
+
+
 
 
 input[type=text],
@@ -453,7 +464,7 @@ textarea,
 #comment {
     width: 80%;
     padding: 12px;
-    border: 1px solid #deeaf6;
+    border: none;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
@@ -461,14 +472,24 @@ textarea,
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba( 89, 89, 89, 0.1);
+    box-shadow: 0 0 0.2px;
+    color: white;
 
 }
+
+#name::placeholder,
+#email::placeholder,
+#comment::placeholder {
+    color: #deeaf6;
+}
+
 
 
 input[type=submit] {
     background-color: #0abbdb;
 
-    color: white;
+    color: #deeaf6;
     padding: 12px;
     border: none;
     cursor: pointer;
@@ -487,21 +508,22 @@ input[type=submit]:hover {
 #socialDiv {
     width: 100%;
     text-align: center;
-    background: white;
+    background-color: rgba( 89, 89, 89, 0.1);
     float: left;
     border-radius: 5px;
     margin: 5px;
     box-shadow: 0 0 5px;
+
 }
 
 #socialtitle {
     font-size: 2.0vw;
-    color: #0abbdb;
+    color: #deeaf6;
     width: 13%;
     margin: auto;
     text-align: center;
     padding-bottom: 2px;
-    border-bottom: 3px solid #0abbdb;
+    border-bottom: 3px solid #deeaf6;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -510,20 +532,20 @@ input[type=submit]:hover {
 .fas {
     margin: 15px 50px 10px 50px;
     font-size: 3.1vw;
-    color: #0abbdb;
-    transition: font-size 1s;
+    color: rgb(222, 234, 246);
+    transition: font-size 1s, color 1s;
 }
 
 .fab:hover,
 .fas:hover {
     font-size: 3.5vw;
-    color: #5a33ce;
+    color: rgb(10, 187, 219, 0.5);
     transition: font-size 1s, color 1s;
 }
 
 #jsComment {
     font-size: 1.1vw;
-    color: #0abbdb;
+    color: #deeaf6;
     font-family: Poppins;
 
 }
@@ -531,7 +553,9 @@ input[type=submit]:hover {
 /*------------------------------------------FOOTER---------------------------------------*/
 
 #foot {
-    box-shadow: 0 0 5px;
+
+    position: relative;
+    top: -4px;
 }
 
 #foot p {
