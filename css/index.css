@@ -552,29 +552,24 @@ input[type=submit]:hover {
 #foot {
 
     position: relative;
-    top: -4px;
+    background-color: #5f21ff;
+    bottom: 2px;
+    height: 30px
 }
 
 #foot p {
     display: inline;
-
-}
-
-#foot p:first-of-type {
-    color: #0abbdb;
+    color: white;
     font-family: Poppins;
+    position: relative;
+    top: 6px;
+
 }
 
-#foot p:last-child {
-    color: #967CE3;
-    font-family: Poppins;
-}
 
 /*MEDIA QUERIES RESPONSIVE-------------------------------------------------------*/
 
 /*max width: 900, any screens with 900px or less*/
-
-@media only screen and (max-width: 480px) {}
 
 @media only screen and (max-width: 540px) {
     #navbar a {
