@@ -271,7 +271,7 @@ ion-icon:hover {
     filter: brightness(80%);
     transition: filter 1s, box-shadow 0.5s, opacity 1s;
     border: 5px solid white;
-    opacity: 0.8
+    opacity: 0.9
 }
 
 #bioimgDiv img:hover {
