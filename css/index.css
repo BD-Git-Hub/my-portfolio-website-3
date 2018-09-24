@@ -159,6 +159,8 @@ ion-icon:hover {
 
 #smallbirds {
     z-index: 13;
+
+
 }
 
 #mediumbirds {
@@ -167,6 +169,7 @@ ion-icon:hover {
 
 #bigbirds {
     z-index: 11;
+
 }
 
 #darkerorange {
@@ -390,12 +393,18 @@ ion-icon:hover {
 
 
 .percentage {
-    background-color: rgba( 222, 234, 246, 0.4);
-    height: 30px;
+    background-color: rgba( 10, 187, 219, 0.6);
+
+    height: 29px;
     display: inline-block;
     position: relative;
     top: 12px;
+
+
 }
+
+
+
 
 .ps,
 .js,
@@ -474,8 +483,17 @@ textarea,
     background-color: rgba( 89, 89, 89, 0.1);
     box-shadow: 0 0 0.2px;
     color: white;
-
 }
+
+#name:focus-within,
+#email:focus-within,
+#comment:focus-within {
+    background-color: rgb(90, 51, 206, 0.6);
+    transition: background-color 2s;
+}
+
+
+
 
 #name::placeholder,
 #email::placeholder,

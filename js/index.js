@@ -65,7 +65,7 @@ $(document).ready(function () {
 
         });
         $('html, body').animate({
-            scrollTop: 950
+            scrollTop: 850
         }, 1500);
         return false;
     });
@@ -73,7 +73,7 @@ $(document).ready(function () {
     //-------------------SKILL SECTION SHOW ALL BUTTON---------//
     $('#showallbtn').click(function () {
         $(".html5").animate({
-            width: '80%'
+            width: '80%',
         }, 800);
         $(".css3").animate({
             width: '75%'
