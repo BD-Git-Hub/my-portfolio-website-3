@@ -115,8 +115,7 @@ $(document).ready(function () {
         var left = change * 20;
         var xpos = xpos * 2;
         ypos = ypos * 2;
-        //original $('').css('top', ((0 + (ypos / 50)) + "px"));
-        //original $('').css('right', ((0 + (xpos / 80)) + "px"));
+
         $('#pier').css('top', ((0 + (ypos / 0)) + "px"));
         $('#pier').css('right', ((0 + (xpos / 800)) + "px"));
 
@@ -196,7 +195,31 @@ $(document).ready(function () {
     function contactLinkedInComment() {
         document.getElementById("jsComment").innerHTML = "wanna get professional? Okay."
     }
+    //---------------------------FADE INS----------------//
+    $('#bioDiv p, #bioimgDiv img, #skillstitle, #showallbtn, #skillsets1, #skillsets2, #skillsets3, #contactcontentDiv, #socialDiv').fadeTo(0, 0, function () {});
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 250) {
+            $('#bioDiv p').fadeTo(500, 1, function () {});
+        }
 
+        if ($(this).scrollTop() > 500) {
+            $('#bioimgDiv img').fadeTo(500, 1, function () {});
+        }
+        if ($(this).scrollTop() > 750) {
+            $('#skillstitle, #showallbtn').fadeTo(500, 1, function () {});
 
+        }
+        if ($(this).scrollTop() > 990) {
+            $('#skillsets1, #skillsets2, #skillsets3').fadeTo(500, 1, function () {});
+        }
 
+        if ($(this).scrollTop() > 1800) {
+            $('#contactcontentDiv').fadeTo(500, 1, function () {});
+        }
+
+        if ($(this).scrollTop() > 2210) {
+            $('#socialDiv').fadeTo(500, 1, function () {});
+        }
+
+    });
 });

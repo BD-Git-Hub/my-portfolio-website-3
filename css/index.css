@@ -338,7 +338,7 @@ ion-icon:hover {
 #skillDiv {
     width: 85%;
     margin: auto;
-
+    
 }
 
 #skillsets1,
@@ -347,13 +347,14 @@ ion-icon:hover {
     display: inline-block;
     width: 33.1%;
     color: #deeaf6;
+    
 
 }
 
 
 
 .skillset {
-
+    
     background-color: rgba( 89, 89, 89, 0.3);
 
     padding: 12px;
@@ -461,11 +462,6 @@ ion-icon:hover {
 }
 
 
-
-
-
-
-
 input[type=text],
 select,
 textarea,
@@ -530,6 +526,7 @@ input[type=submit]:hover {
     border-radius: 5px;
     margin: 5px;
     box-shadow: 0 0 5px;
+    height: 220px;
 
 }
 
