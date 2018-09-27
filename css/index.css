@@ -272,6 +272,7 @@ ion-icon:hover {
     box-shadow: 0 0 5px;
     margin: 5px;
     filter: brightness(80%);
+
     transition: filter 1s, box-shadow 0.5s, opacity 1s;
     border: 5px solid white;
     opacity: 0.9
@@ -338,7 +339,7 @@ ion-icon:hover {
 #skillDiv {
     width: 85%;
     margin: auto;
-    
+
 }
 
 #skillsets1,
@@ -347,14 +348,14 @@ ion-icon:hover {
     display: inline-block;
     width: 33.1%;
     color: #deeaf6;
-    
+
 
 }
 
 
 
 .skillset {
-    
+
     background-color: rgba( 89, 89, 89, 0.3);
 
     padding: 12px;
