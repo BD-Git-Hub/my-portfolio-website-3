@@ -19,6 +19,8 @@ if (isset($_POST['submit'])) {
         header("location: http://bovin-desouza.co.uk/index.html?message=inputEmpty");
         exit();
         
+        
+        
     } else {
         //check if input characters are valid
         //---test---//
